@@ -20,6 +20,7 @@ body {
 .mainContainer {
     background-image: url(assets/images/hero_bg.jpg);
     background-position: center center;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -93,13 +94,14 @@ body {
 }
 
 .Sign_btn {
-    padding: 6px 18px;
+    padding: 8px 16px;
     background-color: var(--btn_color);
-    font-weight: 700;
+    /* font-weight: 700; */
     border-radius: 4px;
     border: none;
     color: var(--txt_color);
     cursor: pointer;
+    font-size: 0.9rem;
 }
 
 .Sign_btn:hover {
@@ -154,10 +156,10 @@ body {
 /* First Section Start */
 
 .firstSec {
-    width: var(--common_width);
+    max-width: var(--common_width);
     height: auto;
     display: flex;
-    padding:4.2rem 0;
+    padding: 4.2rem 0;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -203,21 +205,21 @@ body {
 
 /* Second Section Start */
 
-.secondSec{
+.secondSec {
     position: relative;
     width: 75vw;
-    height:auto;
+    height: auto;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:4.2rem 0;
+    padding: 4.2rem 0;
 }
 
-.secondSec .leftSideTwo > img{
-    width:560px;
+.secondSec .leftSideTwo>img {
+    width: 560px;
     height: 410px;
-} 
+}
 
 .subLeft {
     width: 302px;
@@ -236,40 +238,40 @@ body {
     padding: 0.5rem 0.75rem;
 }
 
-.subLeft > :nth-child(1){
-    width:57.15px;
-    height:80px;
+.subLeft> :nth-child(1) {
+    width: 57.15px;
+    height: 80px;
     margin-right: 10px;
 }
 
-.subLeft :nth-child(3){
+.subLeft :nth-child(3) {
     width: 58px;
-    height:60px;
+    height: 60px;
 }
 
 
-.subContent{
-    width:400px;
+.subContent {
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
 
-.subContent :nth-child(2){
-    color:#0071eb;
+.subContent :nth-child(2) {
+    color: #0071eb;
 }
 
-.rightSideTwo{
+.rightSideTwo {
     color: white;
     display: flex;
     flex-direction: column;
 }
 
-.rightSideTwo > :nth-child(1){
+.rightSideTwo> :nth-child(1) {
     font-size: 2.8rem;
     font-weight: 800;
 }
 
-.rightSideTwo > :nth-child(2){
+.rightSideTwo> :nth-child(2) {
     font-size: 1.5rem;
 
 }
@@ -278,32 +280,32 @@ body {
 
 /* Third Section Start */
 
-.thirdSec{
+.thirdSec {
     width: 55vw;
-    height:auto;
-    color:var(--txt_color);
-    margin:0 auto;
-    padding:4.2rem 0;
+    height: auto;
+    color: var(--txt_color);
+    margin: 0 auto;
+    padding: 4.2rem 0;
     display: flex;
 }
 
-.thirdSec > .leftSideThree{
+.thirdSec>.leftSideThree {
     display: flex;
     flex-direction: column;
     flex-basis: 50%;
-    gap:20px;
+    gap: 20px;
 }
 
-.thirdSec > .leftSideThree > :nth-child(1){
+.thirdSec>.leftSideThree> :nth-child(1) {
     font-size: 3rem;
     font-weight: 800;
 }
 
-.thirdSec > .leftSideThree > :nth-child(2){
+.thirdSec>.leftSideThree> :nth-child(2) {
     font-size: 1.5rem;
 }
 
-.thirdSec > .rightSideThree{
+.thirdSec>.rightSideThree {
     flex-basis: 50%;
 
 }
@@ -312,62 +314,62 @@ body {
 
 /* Fourth Section Start */
 
-.fourthSec{
-    width:80vw;
-    height:auto;
-    padding:4.5rem 0;
+.fourthSec {
+    width: 80vw;
+    height: auto;
+    padding: 4.5rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
-    color:var(--txt_color);
+    margin: 0 auto;
+    color: var(--txt_color);
 }
 
-.fourthSec .leftSideFour img{
-    width:570px;
-    height:420px;
+.fourthSec .leftSideFour img {
+    width: 570px;
+    height: 420px;
 }
 
-.fourthSec .rightSideFour{
+.fourthSec .rightSideFour {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
 }
 
-.fourthSec .rightSideFour :nth-child(1){
+.fourthSec .rightSideFour :nth-child(1) {
     font-size: 2.8rem;
     font-weight: 800;
 }
 
-.fourthSec .rightSideFour :nth-child(2){
+.fourthSec .rightSideFour :nth-child(2) {
     font-size: 1.5rem;
 }
 
 /* Fourth Section End */
 
 /* FAQ Questions Start */
-.faq{
-    width:77vw;
-    height:auto;
-    color:var(--txt_color);
+.faq {
+    width: 77vw;
+    height: auto;
+    color: var(--txt_color);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap:10px;
-    padding:4.2rem 0 2rem 0;
+    gap: 10px;
+    padding: 4.2rem 0 2rem 0;
 
 }
 
-.faq h1{
+.faq h1 {
     font-size: 2.8rem;
-    text-align:center;
+    text-align: center;
     margin-bottom: 10px;
     font-weight: 800;
 }
 
-.box{
-    width:100%;
-    height:85px;
+.box {
+    width: 100%;
+    height: 85px;
     background-color: #2d2d2d;
     display: flex;
     justify-content: space-between;
@@ -375,28 +377,28 @@ body {
     cursor: pointer;
 }
 
-.box:hover{
-    background-color:#414141 ;
+.box:hover {
+    background-color: #414141;
 }
 
 
-.faq img{
-    width:48px;
-    height:48px;
+.faq img {
+    width: 48px;
+    height: 48px;
 }
 
-.faq > div{
+.faq>div {
     font-size: 1.6rem;
-    padding:25px;
+    padding: 25px;
 }
 
 
 
 .memberShip {
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.memberShip > div{
+.memberShip>div {
     font-size: 1.25rem;
     margin: 20px 0;
 }
@@ -405,62 +407,291 @@ body {
 
 /* Footer Start */
 
-.footerContainer{
-    width:75vw;
+.footerContainer {
+    width: 75vw;
     height: auto;
-    padding:4.2rem 0;
-    margin:0 auto;
+    padding: 4.2rem 0;
+    margin: 0 auto;
     font-size: 0.875rem;
 }
 
-.footerContainer .contact{
-    padding:20px 0; 
+.footerContainer .contact {
+    padding: 20px 0;
     font-size: 1rem;
 }
 
-.footerContainer a{
-    color:#b3b3b3;
+.footerContainer a {
+    color: #b3b3b3;
 }
 
-.footerContainer .footerGrid{
+.footerContainer .footerGrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.col{
+.col {
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     margin-bottom: 40px;
 }
 
-.selectLang{
-    width:100px;
+.selectLang {
+    width: 100px;
     height: auto;
 }
 
-.lang{
-    padding:5px 20px;
+.lang {
+    padding: 5px 20px;
     font-size: 1rem;
-    color:var(--txt_color);
+    color: var(--txt_color);
     background-color: black;
     border: 1px solid gray;
     display: flex;
     align-items: center;
 }
 
-.langImg{
-    position:absolute;
-    
+.langImg {
+    position: absolute;
+
 }
 
-.lastItem{
-    color:#b3b3b3;
-    margin-top:20px;
+.lastItem {
+    color: #b3b3b3;
+    margin-top: 20px;
 }
 
 /* Footer End */
 
-@media screen and screen(max="300px") {
-    
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        background-image: url(assets/images/hero_bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        height: 55vh;
+        width: 100%;
+    }
+
+    .heroContainer {
+        height: 48.7vh;
+    }
+
+    .shadow {
+        height: 55vh;
+        width: 100%;
+    }
+
+    .heroOne {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .heroTwo,
+    .heroThree {
+        font-size: 1.125rem;
+    }
+
+    .heroThree {
+        line-height: 2rem;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .nav {
+        max-width: 85vw;
+        padding-top: 25px;
+    }
+
+    .nav img {
+        width: 90px
+    }
+
+    .heroInput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heroInput input {
+        padding: 14px 120px 14px 10px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .heroInput button {
+        padding: 10px 15px;
+    }
+
+    .heroInput button a {
+        font-size: 1.1rem;
+    }
+
+    .firstSec {
+        flex-direction: column;
+
+    }
+
+    .firstSec>.leftSideOne :nth-child(1) {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .firstSec>.leftSideOne :nth-child(2) {
+        font-size: 1.125rem;
+        text-align: center;
+    }
+
+    .firstSec>.leftSideOne {
+        width: 90vw;
+        line-height: 1.5rem;
+    }
+
+    .rightSideOne{
+        overflow: hidden;
+        z-index: 10;
+    }
+
+    .rightSideOne img {
+        width: 362px;
+        overflow: hidden;
+        margin-bottom: -5px;
+    }
+
+    .video {
+        overflow: hidden;
+    }
+
+    .rightSideOne video{
+        position: absolute;
+        top: 55px;
+        left: 48px;
+        width: 475px;
+    }
+
+    .secondSec {
+        flex-direction: column-reverse;
+        width: 90vw;
+    }
+
+    .rightSideTwo {
+        text-align: center;
+    }
+
+    .rightSideTwo> :nth-child(1) {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .rightSideTwo> :nth-child(2) {
+        font-size: 1.125rem;
+    }
+
+    .secondSec .leftSideTwo>img {
+        width: 358px;
+        height: auto;
+    }
+
+    .subLeft {
+        width: 265px;
+        height: 62px;
+        position: absolute;
+        bottom: 90px;
+        left: 52px;
+    }
+
+    .subLeft> :nth-child(1) {
+        width: 57.15px;
+        height: 50px;
+    }
+
+    .subContent :nth-child(1) {
+        font-size: 0.9rem;
+    }
+
+    .subContent :nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .subLeft :nth-child(3) {
+        width: auto;
+        height: 50px;
+    }
+
+    .thirdSec {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+    }
+
+    .thirdSec>.leftSideThree {
+        text-align: center;
+    }
+
+    .thirdSec>.leftSideThree> :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .thirdSec>.leftSideThree> :nth-child(2) {
+        font-size: 1.125rem;
+    }
+
+    .fourthSec {
+        width: 85vw;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .fourthSec .leftSideFour img {
+        width: 400px;
+        height: auto;
+    }
+
+    .fourthSec .rightSideFour :nth-child(1) {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .fourthSec .rightSideFour :nth-child(2) {
+        font-size: 1.125rem;
+    }
+
+
+    .faq{
+        width:90vw;
+    }
+
+     .faq h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .faq > div{
+        font-size: 1.1rem;
+    }
+
+    .faq img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .memberShip {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footerContainer{
+        width: 85vw;
+        height: auto;
+        padding: 0;
+    }
+
+    .footerContainer .footerGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
