@@ -463,6 +463,8 @@ body {
 
 /* Footer End */
 
+/* responsiveness for mobile screens */
+
 @media only screen and (max-width: 600px) {
     .mainContainer {
         background-image: url(assets/images/hero_bg.jpg);
@@ -556,6 +558,7 @@ body {
         width: 362px;
         overflow: hidden;
         margin-bottom: -5px;
+        margin-right: -15px;
     }
 
     .video {
@@ -693,5 +696,9 @@ body {
     .footerContainer .footerGrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .lastItem{
+        padding-bottom: 40px;
     }
 }
